@@ -12,7 +12,7 @@ export default function Post() {
             </figure>
             <div className="post__body">
                 <span className="post__cate">react</span>
-                <div className="post__title">블로그 제목입니다.</div>
+                <div className="post__title">블로그 제목입니다.!</div>
                 <div className="post__desc">
                     블로그 설명부분입니다. 블로그 설명부분입니다. 블로그 설명부분입니다. 블로그 설명부분입니다. 블로그
                     설명부분입니다. 블로그 설명부분입니다. 블로그 설명부분입니다. 블로그 설명부분입니다.

@@ -1,0 +1,71 @@
+.blog__label {
+    color: #fff;
+    background-image: url("https://source.unsplash.com/300x300/?blog,human");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+.blog__label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+.blog__label .author a {
+    color: #fff;
+}
+.blog__label .modify a {
+    color: #fff;
+    opacity: 0.4;
+    font-size: 0.8em;
+}
+.blog__label .delete a {
+    color: #fff;
+    opacity: 0.4;
+    font-size: 0.8em;
+}
+.blog__layout {
+    display: flex;
+    justify-content: space-between;
+}
+.blog__left {
+    width: calc(100% - 340px);
+    min-height: 800px;
+    text-align: left;
+    line-height: 1.8;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.blog__left h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0.6em;
+}
+.blog__right {
+    width: 300px;
+    margin-top: 80px;
+}
+
+.board__btn {
+    float: right;
+    margin-top: 20px;
+}
+.board__btn a,
+.board__btn button {
+    border: 1px solid #c6c6c6;
+    padding: 9px 20px;
+    border-radius: 50px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}

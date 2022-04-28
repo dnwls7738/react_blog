@@ -1,0 +1,48 @@
+/*footer*/
+.footer {
+    padding: 100px 0 0 0;
+    font-family: "GmarketSans";
+}
+.foot_menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(205, 205, 205);
+    margin-bottom: 50px;
+}
+.foot_menu > div {
+    width: 16%;
+}
+.foot_menu > div h3 {
+    font-weight: 500;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.foot_menu > div li a {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.8;
+    position: relative;
+    color: rgb(96, 96, 96);
+}
+.foot_menu > div li a:hover {
+    color: #000;
+}
+.foot_menu > div li a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    transform: scaleX(0);
+    transition: all 0.3s;
+}
+.foot_menu > div li a:hover::before {
+    transform: scaleX(1);
+    color: #000;
+}
+.footer-rights {
+    text-align: center;
+}

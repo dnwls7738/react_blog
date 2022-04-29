@@ -19,18 +19,18 @@ export default function Header() {
                         <Link to="/login">LOGIN</Link>
                     </li>
                     <li>
-                        <Link to="/contact">CONTACT</Link>
+                        <Link to="/view">POST</Link>
+                    </li>
+                    <li>
+                        <Link to="/join">JOIN</Link>
                     </li>
                     <li>
                         <Link to="/write">WRITE</Link>
                     </li>
-                    <li>
-                        <Link to="/logout">LOGOUT</Link>
-                    </li>
                 </ul>
             </nav>
             <div className="member">
-                <Link to="/">
+                <Link to="/mypage">
                     <img
                         src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         alt=""
